@@ -1,0 +1,67 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    padding: 30px
+}
+
+.boton-submit {
+    padding: 7px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color-boton-comun);
+    color: var(--color-primario-texto);
+}
+
+.boton-submit:hover {
+    cursor: pointer;
+    background-color: var(--color-boton-comun-hover);
+    transform: scale(1.06);
+}
+
+.boton-volver {
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color-boton-comun);
+    color: var(--color-primario-texto);
+    width: 45px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.boton-volver:hover {
+    cursor: pointer;
+    background-color: var(--color-boton-comun-hover);
+    transform: scale(1.06);
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+    font-size: 18px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.fila input {
+    width: 190px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.fila input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.fila.corta input {
+    width: 50px;
+}
+
+.boton-submit-rojo {
+    background-color: rgb(196, 0, 0);
+    margin-top: 20px
+}
