@@ -16,4 +16,4 @@ RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cac
 
 ENV PORT=80
 EXPOSE 80
-CMD php artisan migrate --force && apache2-foreground
+CMD php artisan migrate --seed --force && apache2-foreground
